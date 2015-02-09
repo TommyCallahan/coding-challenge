@@ -1,0 +1,311 @@
+
+body {margin: 0 auto;}
+
+#page-container {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width:100%;
+	margin-top: 10px;
+	position: relative;
+}
+
+a#logo {
+	background-image: url(images/zest-logo.gif);
+	background-size: cover;
+	width: 165px;
+	height: 94px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top:0;
+	text-decoration: none;
+}
+
+#logo-box {
+	width:69%;
+	display: inline-block;
+}
+
+#upper-nav {
+	width:30%;
+	display: inline-block;
+}
+
+
+#upper-nav ul {
+	width: 100%;
+	margin: 0px;
+	padding: 5px 0px;
+	text-align: right;
+}
+
+#upper-nav ul li {
+	width: 24%;
+	display: inline;
+	font-size: .75em;
+	list-style: disc outside none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;	
+	color: #ccc;
+}
+
+#upper-nav li:before {
+ content:"\2022";
+ margin-right: .3em;
+ font-size: 11px;
+ color: #999;
+}
+
+#upper-nav li:nth-of-type(1):before {
+ content:"";
+ margin-right:0em;
+ color: #666;
+}
+
+#upper-nav ul li a{
+	font-weight: 300;	
+	color: #999;
+	text-decoration: none;
+}
+
+#upper-nav ul li a:hover{
+	color:#666;
+}
+
+#upper-nav form {
+	position: relative;
+}
+
+#upper-nav input.search {
+	float: right;
+	border-left:1px solid white; 
+	border-right:1px solid white;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc; 
+}
+
+input.arrow {
+	background-image: url(images/arrow.gif);
+	height: 10px;
+	width:20px;
+	border:0px;
+	position: absolute;
+	right: 0px;
+	top:5px;
+	cursor: pointer;
+}
+
+
+nav {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin-top: 75px;
+}
+
+nav ul {
+	display: table-row;
+}
+
+nav li {
+	display: table-cell;
+	margin: 0;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom:5px;
+	list-style: circle !important;
+}
+
+nav li a {
+	font-weight: 300;	
+	color: #666;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;	
+	text-decoration: none;
+	}
+
+nav li a:hover {
+	color:#ff9400;
+}
+
+nav li:before {
+ content:"\2022";
+ margin-right: 1.3em;
+ font-size: 14px;
+ color: #666;
+}
+
+nav li:nth-of-type(1):before, nav li:nth-of-type(7):before {
+ content:"";
+ margin-right:0em;
+ color: #666;
+}
+
+
+
+nav li:nth-of-type(7) a {
+	color:#ff9400 !important;
+	border-left: double #ccc 4px;
+	padding-left: 30px;
+}
+
+
+
+.content-box {
+	display: inline-block;
+	background-color: #e4e4e5;
+	margin-top: 9px;
+}
+
+#content-box-1 {
+	height: 450px;
+	width: 70%;
+}
+
+#content-box-2 {
+	height: 450px;
+	width: 29%;
+	float: right;
+}
+
+#content-box-3 {
+	height: 235px;
+	width: 29%;
+
+}
+
+#content-box-4 {
+	height: 235px;
+	width: 70%;
+	float: right;
+}
+
+#footer {
+	margin-top: 9px;
+	margin-bottom: 20px;
+	border-top: 1px solid #ccc;
+}
+
+#footer-box-1{
+	width:20%;
+	border-right:1px solid #ccc;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+#footer-box-2{
+	width:20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+	padding-left: 15px;
+}
+
+#footer-box-3{
+	width:30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
+	float: right;
+	position: relative;
+	text-align: right;
+}
+
+
+.hours-col {
+	width:48%;
+	display: inline-block;
+}
+
+.footer-heading {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;	
+	color: #999;
+	font-size: .70em;
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+
+.footer-text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;	
+	color: #999;
+	font-size: .70em;
+	margin-bottom: 3px;
+}
+
+
+#footer-box-3 form {
+	position: relative;
+}
+
+#footer-box-3 input.search {
+	float: right;
+	border-left:1px solid white; 
+	border-right:1px solid white;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width:230px;
+	margin-top: 10px;
+}
+
+#footer-box-3 input.arrow {
+	background-image: url(images/arrow.gif);
+	height: 10px;
+	width:20px;
+	border:0px;
+	position: absolute;
+	right: 0px;
+	top:15px;
+	cursor: pointer;
+}
+
+#social-icons {
+	width:100%;
+	clear: both;
+	padding-top: 8px;
+	padding-bottom: 2px;
+}
+
+#social-icons a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+a#facebook {
+	height: 18px;
+	width:15px;
+	background-image: url(images/fb.gif);
+	background-size: cover;
+}
+
+a#twitter {
+	height: 18px;
+	width:15px;
+	background-image: url(images/twitter.gif);	
+	background-size: cover;
+}
+
+a#pinterest {
+	height: 18px;
+	width:15px;
+	background-image: url(images/pin.gif);
+	background-size: cover;
+}
+
+a#buzz {
+	height: 18px;
+	width:15px;
+	background-image: url(images/b.gif);
+	background-size: cover;
+}

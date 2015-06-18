@@ -1,5 +1,5 @@
-# twelve23-coding-challenge
-Coding challenge for twelve23
+# coding-challenge
+Coding challenge
 
 
 BACK END TEST:
@@ -15,4 +15,4 @@ add answers to a git repo and either make public and send the link or share with
 
 FRONT END TEST:
 
-Because it will be a large part of the job to start, could you please demonstrate your HTML and CSS skills by taking the attached mockup, slicing it up, and creating an identical (or as close as you can get it) HTML file? Please use Google web font "Raleway" (regular).
+Demonstrate your HTML and CSS skills by taking the attached mockup, slicing it up, and creating an identical (or as close as you can get it) HTML file? Please use Google web font "Raleway" (regular).
